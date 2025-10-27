@@ -1,0 +1,92 @@
+{
+  "dpp_id": "DPP-MLP-2025-XXX-XXXXXX",
+  "epc": "urn:epc:id:sgtin:0614141.123456.0000000001",
+  "product": {
+    "gtin": "0614141234567",
+    "name": "Without® Shampoo",
+    "variant": "Recycled MLP Bottle, 250ml, SLS-Free",
+    "batch_number": "BATCH-25M-1001",
+    "production_date": "2025-03-15",
+    "expiry_date": "2027-03-15",
+    "waste_diverted_g": 62,
+    "waste_equiv_packets": 10
+  },
+  "packaging": {
+    "bottle": {
+      "material": "100% Recycled MLP (Multi-Layer Plastic from chip packets)",
+      "weight_g": 30,
+      "recyclable": true,
+      "recycled_content": 100,
+      "design": "Circular – 10x recyclable"
+    },
+    "cap": {
+      "material": "Recycled MLP",
+      "weight_g": 5,
+      "recyclable": true
+    },
+    "label": {
+      "material": "Plastic-free paper (FSC-certified)",
+      "weight_g": 1,
+      "recyclable": true
+    }
+  },
+  "materials": [
+    { "name": "Aqua", "percentage": 78.0, "origin": "EU" },
+    { "name": "Sodium Lauroyl Sarcosinate", "percentage": 7.0, "biobased": true, "sls_free": true },
+    { "name": "Cocamidopropyl Betaine", "percentage": 5.0 },
+    { "name": "Essential Oils (Lavender)", "percentage": 1.0, "organic": true }
+  ],
+  "environmental_impact": {
+    "carbon_footprint_kgCO2e": 0.25,
+    "carbon_reduction_pct": 50,
+    "water_usage_liters": 85,
+    "water_reduction_pct": 85,
+    "energy_reduction_pct": 62.5,
+    "waste_reduction_pct": 60,
+    "recyclability_score": 0.98,
+    "carbon_neutral": true,
+    "offset_via": "Farmers For Forests reforestation"
+  },
+  "compliance": {
+    "EU_Ecolabel": true,
+    "REACH": true,
+    "Cosmetics_Regulation_EC_1223_2009": true,
+    "SLS_Paraben_Free": true,
+    "biodegradability": "OECD 301B > 85%"
+  },
+  "supply_chain": [
+    {
+      "step": "Waste Collection",
+      "actor": "Kashtachi Kamai Scrapshop (KKPKP & SWaCH cooperatives)",
+      "location": "Pune, India (Nana Peth, Pimpri)",
+      "timestamp": "2025-02-20T08:00:00Z",
+      "social_impact": "3x wage increase for wastepickers"
+    },
+    {
+      "step": "Processing & Testing",
+      "actor": "Ashaya Waste Recyclers Pvt Ltd (The Cradle facility)",
+      "location": "Pune, India",
+      "timestamp": "2025-03-01T14:30:00Z",
+      "verified": true
+    },
+    {
+      "step": "Assembly",
+      "actor": "Without® Manufacturing",
+      "location": "Pune, India",
+      "timestamp": "2025-03-15T10:00:00Z",
+      "carbon_neutral_shipping": true
+    }
+  ],
+  "metadata": {
+    "brand": "Without®",
+    "company": "Ashaya Waste Recyclers Private Limited",
+    "client": "EcoRetail Partners",
+    "client_location": "Berlin, Germany",
+    "distribution_center": "DC-PUNE-01",
+    "qr_code_url": "https://without.live/digital-product-passport-bottles/?epc=DPP-MLP-2025-XXX-XXXXXX",
+    "blockchain_hash": "0xwithoutMLP...abc123",
+    "social_impact": "Formal contracts & payslips for former wastepickers",
+    "packaging_source": "Corugami (plastic-free)",
+    "last_updated": "2025-10-27T14:30:00Z"
+  }
+}
