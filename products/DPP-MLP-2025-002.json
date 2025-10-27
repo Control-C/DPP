@@ -1,0 +1,92 @@
+{
+  "dpp_id": "DPP-MLP-2025-002-100002",
+  "epc": "urn:epc:id:sgtin:0614141.123457.0000000002",
+  "product": {
+    "gtin": "0614141234574",
+    "name": "Without® Sunscreen",
+    "variant": "Recycled MLP Bottle, 100ml, SPF 50, Makeup Base",
+    "batch_number": "BATCH-25M-1002",
+    "production_date": "2025-04-01",
+    "expiry_date": "2027-04-01",
+    "waste_diverted_g": 45,
+    "waste_equiv_packets": 7
+  },
+  "packaging": {
+    "bottle": {
+      "material": "100% Recycled MLP (Multi-Layer Plastic from chip packets)",
+      "weight_g": 25,
+      "recyclable": true,
+      "recycled_content": 100,
+      "design": "Circular – 10x recyclable, pump dispenser"
+    },
+    "cap": {
+      "material": "Recycled MLP",
+      "weight_g": 4,
+      "recyclable": true
+    },
+    "label": {
+      "material": "Plastic-free paper (FSC-certified)",
+      "weight_g": 1,
+      "recyclable": true
+    }
+  },
+  "materials": [
+    { "name": "Aqua", "percentage": 65.0, "origin": "EU" },
+    { "name": "Zinc Oxide (non-nano)", "percentage": 20.0, "mineral_based": true },
+    { "name": "Cocos Nucifera Oil", "percentage": 5.0, "organic": true },
+    { "name": "Shea Butter", "percentage": 3.0, "fair_trade": true }
+  ],
+  "environmental_impact": {
+    "carbon_footprint_kgCO2e": 0.18,
+    "carbon_reduction_pct": 50,
+    "water_usage_liters": 70,
+    "water_reduction_pct": 85,
+    "energy_reduction_pct": 62.5,
+    "waste_reduction_pct": 60,
+    "recyclability_score": 0.97,
+    "carbon_neutral": true,
+    "offset_via": "Farmers For Forests reforestation"
+  },
+  "compliance": {
+    "EU_Ecolabel": true,
+    "REACH": true,
+    "Cosmetics_Regulation_EC_1223_2009": true,
+    "Reef_Safe": true,
+    "biodegradability": "OECD 301B > 90%"
+  },
+  "supply_chain": [
+    {
+      "step": "Waste Collection",
+      "actor": "Kashtachi Kamai Scrapshop (KKPKP & SWaCH cooperatives)",
+      "location": "Pune, India (Nana Peth, Pimpri)",
+      "timestamp": "2025-03-05T08:00:00Z",
+      "social_impact": "1.2x–3x wage increase for wastepickers"
+    },
+    {
+      "step": "Processing & Testing",
+      "actor": "Ashaya Waste Recyclers Pvt Ltd (The Cradle facility)",
+      "location": "Pune, India",
+      "timestamp": "2025-03-20T14:30:00Z",
+      "verified": true
+    },
+    {
+      "step": "Assembly",
+      "actor": "Without® Manufacturing",
+      "location": "Pune, India",
+      "timestamp": "2025-04-01T10:00:00Z",
+      "carbon_neutral_shipping": true
+    }
+  ],
+  "metadata": {
+    "brand": "Without®",
+    "company": "Ashaya Waste Recyclers Private Limited",
+    "client": "BeautyHub Retail",
+    "client_location": "Munich, Germany",
+    "distribution_center": "DC-PUNE-02",
+    "qr_code_url": "https://without.live/digital-product-passport-bottles/?epc=urn:epc:id:sgtin:0614141.123457.0000000002",
+    "blockchain_hash": "0xwithoutMLPsunscreenabc123",
+    "social_impact": "Employment for former wastepickers with fair wages",
+    "packaging_source": "Corugami (plastic-free)",
+    "last_updated": "2025-10-27T14:30:00Z"
+  }
+}
