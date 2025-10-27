@@ -1,0 +1,31 @@
+{
+  "dpp_id": "DPP-MLP-2025-001-100001",
+  "epc": "urn:epc:id:sgtin:0614141.123456.0000000001",
+  "product": {
+    "gtin": "0614141234567",
+    "name": "Without® Shampoo",
+    "variant": "Recycled MLP Bottle, 250ml, SLS-Free",
+    "batch_number": "BATCH-25M-1001",
+    "production_date": "2025-03-15",
+    "expiry_date": "2027-03-15",
+    "waste_diverted_g": 62,
+    "waste_equiv_packets": 10
+  },
+  "packaging": { ... },  // Same as template
+  "materials": [ ... ],   // Same as template
+  "environmental_impact": { ... },  // Same as template
+  "compliance": { ... },  // Same as template
+  "supply_chain": [ ... ], // Same as template
+  "metadata": {
+    "brand": "Without®",
+    "company": "Ashaya Waste Recyclers Private Limited",
+    "client": "EcoRetail Partners",
+    "client_location": "Berlin, Germany",
+    "distribution_center": "DC-PUNE-01",
+    "qr_code_url": "https://without.live/digital-product-passport-bottles/?epc=urn:epc:id:sgtin:0614141.123456.0000000001",
+    "blockchain_hash": "0xwithoutMLPdefabc123456789",
+    "social_impact": "Formal contracts & payslips for former wastepickers",
+    "packaging_source": "Corugami (plastic-free)",
+    "last_updated": "2025-10-27T14:30:00Z"
+  }
+}
